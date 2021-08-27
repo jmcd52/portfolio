@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 54px;
+  background-color: rgba(34,48,56,1.00);
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper{
+	flex: 1 0 auto;
+}
+
+h1, h2, h3, h4{
+	color: rgba(180,185,180,1.00);
+	
+}
+
+p{
+	color: rgba(170,170,175,1.00);
+}
+
+footer{
+	clear:both;
+	margin-top:30px;
+	flex-shrink: 0;
+}
+
+.nav-item{margin-right: 5px;}
+.nav-link{margin-top: 3px; margin-bottom: 3px;}
+#search{cursor:text; padding-bottom: 0.5rem; padding-top: 0.5rem; background-color: white; color: black;}
+#search:focus{box-shadow: 0 0 0 0.2rem rgba(15,105,100,.5);} 
+#searchButton{padding-bottom: 0.5rem; padding-top: 0.5rem;}
+
+.cmsSearch{ left: 90%;}
+.dashboard-icon{width: 100px; height: 100px; margin-left: 36%; margin-right: 36%; margin-top: 5px;}
+.dashboard-button{width: 60%; margin-top: 5px; margin-left: 20%; margin-bottom: 5px; color: rgba(150,155,170,1.00)}
+
+.card{
+	background-color: inherit;
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgba(150,155,170,0.25);
+}
+.card-image{min-height: 220px; opacity: 1;}
+.card-image:hover{opacity: 0.5;  border: 2px solid rgba(0,98,204,1.00)}
+.card-image:active{opacity: 0.8;}
+
+.btn-primary {
+	color: rgba(150,155,170,1.00);
+    background-color: rgba(34,48,56,1.00);
+    border-color: rgba(15,105,100,1.00);
+}
+
+.btn-primary:hover {
+    background-color: rgba(15,105,100,1.00);
+}
+
+.btn-primary:active{
+    background-color: rgba(0,98,204,1.00);
+}
+
+hr{
+	background-color: rgba(15,105,100,1.00);
+	padding: 1px;
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.pageTitle{
+	margin-top: 15px;
+}
+
+.postTitle{
+	color:rgba(150,155,170,1.00);
+}
+
+.postTitleLink{
+	color: rgba(150,155,170,1.00);
+}
+.postTitleLink:hover{
+}
+
+.postDescription{min-height: 68%; padding-bottom: 30px;}
+
+.viewButton{
+	width: 90%;
+	position: absolute;
+	bottom: 5px;
+	right: 5%;
+}
+
+.viewAllButtonText {
+	
+	/* centres the button */
+	text-align: center;
+	/*bootstrap margin overide */
+	margin-bottom: 0px;
+	
+	/* pad out the top and bottom of the button */
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.viewAllButtonText:hover{
+	color:white;
+}
+
+.viewAllButton{
+	
+	/* inherit width properties from container element */
+	width:inherit;
+	padding-left: inherit;
+	padding-right: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
+	
+	/* adds margin between the button and page footer */
+	margin-bottom: 15px;
+}
+
+.edit{
+	
+	margin-bottom: 10px;
+	width: 100%;
+	
+}
+
+.delete{
+	width: 100%;
+	
+	
+}
+
+.portfolio-item, .pagination{
+	margin-bottom: 30px;
+}
+
+.page-item{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.page-link:hover{
+	color: white;
+}
+
+.pImg{
+	max-height: 400px;
+	width: auto;
+}
+
+.pImg:hover{opacity: 0.5; border: 2px solid rgba(0,98,204,1.00);}
+.pImg:active{opacity: 0.8;}
+
+
+
